@@ -3,6 +3,7 @@ import * as dotenv from "dotenv";
 import { v4 as uuidv4 } from 'uuid';
 import { riddleSet } from "./Riddlebox.js";
 dotenv.config();
+import { Analytics } from "@vercel/analytics/next"
 
 // =======================================================
 // CONSTANTS
